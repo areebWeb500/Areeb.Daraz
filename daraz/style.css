@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: orangered;
+    padding: 25px;
+    display: flex;
+}
+header input{
+    padding: 13px 19px;
+    width: 650px;
+    margin-left: 70px;
+    height: 50px;
+    border: none;
+}
+.icon{
+    background-color: #FFE1D2;
+    color: orangered;
+    padding: 16px;
+    margin-left: 0;
+    text-align: center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-size: larger;
+}
+.icon2{
+    margin-left: 30px;
+    margin-top: 17px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+.on {
+    background-color: orangered;
+    padding: 4px;
+    text-align: right;
+}
+.on a{
+    color: white;
+    text-decoration: none;
+    padding: 17px;
+}
+.on a:hover{
+    color: lemonchiffon;
+}
+.img{
+    margin-left: 20px;
+}
+.Flash{
+    margin-left: 60px;
+    margin-top: 20px ;
+    font-size: xx-large;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.top{
+    color: orangered;
+    margin-left: 80px;
+    font-size: large;
+}
+.top button{
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 80px;
+    cursor: pointer;
+    background-color: white;
+}
+.main{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.div1{
+    height: fit-content;
+    width: 230px;
+    cursor: pointer;
+}
+.div1:hover{
+    box-shadow: 3px 3px 3px 3px rgb(209, 208, 208);
+}
+.title{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.price{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: orangered;
+    font-size: large;
+}
+.discount{
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: gray;
+}
+.card1{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 16px ;
+    cursor: pointer;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.main11{
+     display: flex;
+    justify-content: center;
+}
+.card1:hover{
+    box-shadow: 3px 3px 3px 3px rgb(209, 208, 208);
+}
+.star{
+    color: orange;
+    font-size: small;
+}
+.pra{
+    color: gray;
+}
+.star1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.load{
+    width: 390px;
+    height: 40px;
+    margin-left: 410px;
+    margin-top: 50px;
+    background-color: white;
+    color: #1a9cb8;
+    border: 1px solid #1a9cb8;
+    font-size: medium;
+    cursor: pointer;
+}
+.ftmain{
+    display: flex;
+}
+.fdiv1 p{
+    margin-bottom: 20px;
+    margin-left: 4px;
+    font-size: large;
+}
+.fdiv2 p{
+    margin-bottom: 20px;
+    margin-left: 4px;
+    font-size: large;
+}
+.fdiv1{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.fdiv2{
+    margin-left: 80px;
+    margin-top: 15px;
+}
+.f2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    background-color: rgb(247, 242, 242);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.div1f2{
+    display: flex;
+    flex-direction: column;
+}
+.div1f2 p{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.div1f2 a{
+    text-decoration: none;
+    color: #0f136d;
+    margin-top: 1px;
+}
+.div1f2 a:hover{
+    text-decoration: underline;
+}
+.div2f2{
+    display: flex;
+    flex-direction: column;
+}
+.div2f2 p{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.div2f2 a{
+    text-decoration: none;
+    color: #0f136d;
+    margin-top: 1px;
+}
+.div2f2 a:hover{
+    text-decoration: underline;
+}
+.div3f2{
+    display: flex;
+}
+.mini{
+    margin-left: 10px;
+}
+.Happy{
+    color: orangered;
+    font-size: larger;
+}
+.app{
+    color: #0f136d;
+}
+.div4f2{
+    cursor: pointer;
+}
+.f3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.div1f3{
+    margin-left: 40px;
+}
+.div1f3 p{
+    font-size: larger;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.f3img{
+    display: flex;
+}
+.f3img img{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.f3img a{
+    margin-left: 10px;
+    margin-top: 4px;
+    color: #888;
+    text-decoration: none;
+}
+.f3img a:hover{
+    text-decoration: underline;
+}
+.div2f3{
+    margin-left: 50px;
+}
+.div2f3 p{
+    font-size: larger;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.div2f3 img{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.message{
+    display: flex;
+    height: 40px;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 84%;
+    box-shadow: 0px 2px 4px 2px black;
+    cursor: pointer;
+    border: none;
+}
+.mg{
+    font-size: larger;
+    margin-top: 10px;
+    color: #044254;
+    margin-left: 30px;
+}
+.mg1{
+    font-size: larger;
+    margin-top: 9px;
+    color: #044254;
+    margin-left: 10px;
+}
