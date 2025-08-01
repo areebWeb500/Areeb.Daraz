@@ -287,3 +287,24 @@ header input{
     color: #044254;
     margin-left: 10px;
 }
+.side{
+    background-color: rgb(247, 242, 242);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 0px;
+    bottom: 40px;
+    position: absolute;
+    position: fixed;
+}
+.side i{
+    margin-top: 17px;
+    cursor: pointer;
+}
+.side i:hover{
+    color: orangered;
+}
+.ora{
+    color: orangered;
+}
